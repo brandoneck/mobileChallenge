@@ -1,34 +1,41 @@
 # 📱 Mobile Challenge
 
-A simple mobile challenge app built with **React Native**.  
-This project demonstrates a clean UI, list rendering, API fetching, and basic navigation.
+A simple mobile app built with **React Native** as part of a coding challenge.  
+The main goal of this challenge is to **display weather conditions and forecasts** for multiple locations, using data from a weather API.
+
+The app allows users to:
+- View the current weather in various cities
+- See forecast data for the upcoming days
+- Navigate between location screens
+
+---
 
 ## 🚀 Features
 
-- 📋 Display a list of items fetched from API
-- 🔍 Detail screen with specific item info
-- 🧭 React Navigation integration
-- 🎨 Styled components / Custom styles
-- ⚡ Performance-focused list rendering
+- ✅ Fetch and render characters from an external API
+- ✅ Display character name, species, and avatar
+- ✅ Detail screen with extra information (status, location, etc.)
+- ✅ Basic navigation between list and detail views
+- ✅ Modular structure with reusable components
+- ✅ React Native optimized UI
+
+---
 
 ## 🛠️ Tech Stack
 
 - React Native
-- React Navigation
 - JavaScript (ES6+)
-- Axios / Fetch API
-- [Add anything extra you used]
+- React Navigation
+- Axios
 
-## 📸 Screenshots
+---
 
-| List Screen | Detail Screen |
-|-------------|----------------|
-| ![List](screenshots/list.png) | ![Detail](screenshots/detail.png) |
-
-## 🧪 How to run
+## 🧪 Installation & Running Locally
 
 ```bash
 git clone https://github.com/brandoneck/mobileChallenge.git
 cd mobileChallenge
 npm install
-npx react-native run-android # or run-ios
+npx react-native run-android
+# or for iOS (if you're on MacOS):
+npx react-native run-ios
